@@ -12,8 +12,8 @@ const CALL_TYPES = {
 }
 
 const DIALPAD_ID = 'dialpad';
-const INROOMCONTROL_AUDIOCONTROL_PANELID = 'personal_room';
-const DOMAIN = 'lookingpoint.webex.com'
+const INROOMCONTROL_AUDIOCONTROL_PANELID = 'personal_room'; // This needs to match the id of the button you create in the UI Extensions Editor
+const DOMAIN = 'lookingpoint.webex.com' // Edit this to your personal domain
 
 /* Use these to check that its a valid number (depending on what you want to allow users to call */
 const REGEXP_URLDIALER = /([a-zA-Z0-9@_\-\.]+)/; /*  . Use this one if you want to allow URL dialling */
