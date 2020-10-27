@@ -19,8 +19,6 @@ const DOMAIN = 'lookingpoint.webex.com' // Edit this to your personal domain
 const REGEXP_URLDIALER = /([a-zA-Z0-9@_\-\.]+)/; /*  . Use this one if you want to allow URL dialling */
 const REGEXP_NUMERICDIALER =  /^([0-9]{3,10})$/; /* Use this one if you want to limit calls to numeric only. In this example, require number to be between 3 and 10 digits. */
 
-const DIALPREFIX_AUDIO_GATEWAY = '+';
-
 function showDialPad(text){
 
          xapi.command("UserInterface Message TextInput Display", {
